@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 12px;
+}
+
+.header #logo h2 a {
+    color: #8B0000;
+}
+
+.header #logo span {
+    color: #F8DBDB;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.feature {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-feature {
+    min-width: 1000px;
+    color: #F8DBDB;
+}
+
+.content {
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.navigator {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+}
+
+.navigator ul {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.navigator ul li {
+    font-size: 14px;
+}
+
+.inner-content {
+    height: 470px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-content p {
+    font-size: 12px;
+    color: #959595;
+    line-height: 1.8;
+}
+
+.navigator h3,
+.inner-content h3 {
+    color: #8B0000;
+}
+
+.inner-content button {
+    width: 275px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.inner-content button a {
+    color: black;
+}
+
+.in-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.top-footer {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F8DBDB;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+}
+
+.top-footer div {
+    width: 300px;
+    padding: 10px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+
+.top-footer div h3 {
+    color: darkred;
+}
+
+.top-footer div p {
+    color: red;
+    font-size: 14px;
+}
+
+.end-footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    font-size: 12px;
+    color: #959595;
+}
