@@ -62,6 +62,7 @@ a {
 .header>div {
     min-width: 1024px;
     text-align: left;
+    color: rgb(248, 219, 219);
 }
 
 .main-container {
@@ -76,7 +77,7 @@ a {
     padding: 10px;
     display: flex;
     flex-direction: row;
-    gap: 300px;     
+    gap: 300px;
     min-height: 400px;
 }
 
@@ -190,7 +191,7 @@ a {
 
     .inner-main {
         max-width: 768px;
-        gap: 0;     
+        gap: 0;
     }
 
     .inner-features {
@@ -213,7 +214,7 @@ a {
 
     .header>div {
         min-width: 576px;
-        gap: 0;     
+        gap: 0;
     }
 
     .inner-main {
@@ -244,11 +245,13 @@ a {
 
     .inner-main {
         max-width: 330px;
-        gap: 0;     
+        gap: 0;
+        flex-direction: column;
     }
 
     .inner-features {
         max-width: 330px;
+        flex-direction: column;
     }
 
     .inner-main>nav {
