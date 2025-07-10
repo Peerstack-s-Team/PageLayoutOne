@@ -6,109 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoolLogo</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+
 </head>
 
 <body>
-    <header>
+    <nav>
         <div class="container">
-            <div class="inner-container">
-                <div id="logo">
-                    <a href="#">Cool<span>Logo</span></a>
-                </div>
-                <div class="navigation">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help</a></li>
-                    </ul>
-                </div>
-                <i id="menu-icon" class="fa-solid fa-bars"></i>
+            <div class="logo">
+                <h2><a href="">Cool<span>Logo</span></a></h2>
+            </div>
+            <ul id="menuList">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
             </div>
         </div>
+    </nav>
+
+    <header>
+        <div class="inner-header">
+            <h2>Heading</h2>
+        </div>
     </header>
-    <section class="header">
-        <div>
-            <h1>Heading</h1>
+
+    <main>
+        <div class="mainSec">
+            <section>
+                <div class="sidebar">
+                    <h3>Left heading</h3><br>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="main-section">
+                    <section>
+                        <h3>
+                            <a href="https://www.html.am/templates/downloads/view-source.cfm?template=css-templates/fixed-width-1-red.cfm"
+                                target="_blank">View
+                                Template Source Code</a>
+                        </h3>
+                        <br><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima?</p>
+                    </section>
+                    <article>
+                        <h2>Heading</h2>
+                        <p>The most important moment of your life is now. The most important person in your life is the
+                            one you are with now, and the most important activity in your life is the one you are
+                            involved with now.
+                            <br><br>
+                            You will not be punished for your anger, you will be punished by your anger. This, too, will
+                            pass.
+                        </p>
+                    </article>
+                    <article>
+                        <h2>Heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatem perferendis vero
+                            recusandae iusto molestias ab numquam tempore aliquid aperiam deserunt enim fugit, eum ad
+                            quae
+                            accusantium ratione laboriosam, repudiandae animi. Dolorem quam ad quibusdam illo fugit
+                            maiores
+                            repudiandae ipsa, earum minima et. Dignissimos excepturi quod sed vitae voluptates ipsa.
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi natus, vel
+                            hic
+                            delectus
+                            sed ex cumque minus atque soluta.
+                        </p>
+                    </article>
+                    <article>
+                        <h2>Heading</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, dolorum et! Error totam
+                            eaque
+                            dignissimos, earum blanditiis, nemo facilis autem, voluptatibus labore nam fugit? Saepe
+                            obcaecati
+                            amet commodi sequi cupiditate, quam repellendus accusantium reprehenderit enim quae quo
+                            deleniti
+                            aliquid nemo eos perferendis voluptates fuga asperiores magni eius optio itaque! Nesciunt?
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laudantium quasi ipsum harum
+                            minus
+                            iure eius, debitis voluptatem tempora ducimus!
+                        </p>
+                    </article>
+                </div>
+            </section>
         </div>
-    </section>
-    <section class="main-container">
-        <div class="inner-main">
-            <nav>
-                <h3>Left heading</h3>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                </ul>
-            </nav>
-            <main>
-                <section>
-                    <h3>
-                        <a
-                            href="https://www.html.am/templates/downloads/view-source.cfm?template=css-templates/fixed-width-1-red.cfm">View
-                            Template Source Code</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima?</p>
-                </section>
-                <section>
-                    <h2>Heading</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatem perferendis vero
-                        recusandae iusto molestias ab numquam tempore aliquid aperiam deserunt enim fugit, eum ad quae
-                        accusantium ratione laboriosam, repudiandae animi. Dolorem quam ad quibusdam illo fugit maiores
-                        repudiandae ipsa, earum minima et. Dignissimos excepturi quod sed vitae voluptates ipsa.
-                    </p><br>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus excepturi natus, vel hic
-                        delectus
-                        sed ex cumque minus atque soluta.</p>
-                </section>
-                <section>
-                    <h2>Heading</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, dolorum et! Error totam
-                        eaque
-                        dignissimos, earum blanditiis, nemo facilis autem, voluptatibus labore nam fugit? Saepe
-                        obcaecati
-                        amet commodi sequi cupiditate, quam repellendus accusantium reprehenderit enim quae quo deleniti
-                        aliquid nemo eos perferendis voluptates fuga asperiores magni eius optio itaque! Nesciunt?</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laudantium quasi ipsum harum minus
-                        iure eius, debitis voluptatem tempora ducimus!</p>
-                </section>
-            </main>
-        </div>
-    </section>
+    </main>
+
     <footer>
-        <section class="features">
-            <div class="inner-features">
-                <div>
-                    <h3>Heading</h3><br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officiis.</p>
-                </div>
-                <div>
-                    <h3>Heading</h3><br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officiis.</p>
-                </div>
-                <div>
-                    <h3>Heading</h3><br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officiis.</p>
+        <section>
+            <div class="features">
+                <div class="inner-features">
+                    <article>
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero, illo officiis nam
+                            exercitationem delectus culpa quas eius pariatur nesciunt!
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero, illo officiis nam
+                            exercitationem delectus culpa quas eius pariatur nesciunt!
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero, illo officiis nam
+                            exercitationem delectus culpa quas eius pariatur nesciunt!
+                        </p>
+                    </article>
                 </div>
             </div>
         </section>
         <section class="footer">
-            <p>&copy; Copyright <a href="#">Your Site</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy
+            <p>&copy; Copyright <a href="#">Your Site</a> &#124; <a href="#">Terms of Use</a> &#124; <a href="#">Privacy
                     Policy</a></p>
         </section>
     </footer>
+
+    <script>
+        let menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/4ab8724b60.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
