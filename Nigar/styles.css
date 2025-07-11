@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+/* reset css
+ */
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+
+}
+.container{
+    margin-inline: 20px;
+}
+.works{
+    &__imgs{
+        width: 100vw;
+    }
+    &__img--logo{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.Logo span {
+    color: pink;
+    font-style: italic;
+    
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 5px;
+    }
+
+    .banner {
+        background-color: red;
+        color: white;
+        /* text-align: center;  */
+        padding: 20px 0;
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    .content {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        background-color: #f8f8f8;
+    }
+
+    .sidebar {
+        width: 25%;
+        padding: 10px;
+        
+    }
+
+    .sidebar ul {
+        list-style: none;
+    }
+
+    .main-text {
+        width: 75%;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #ffeaea;
+    }
+
+    .card {
+        width: 30%;
+        padding: 10px;
+        background-color: #fff0f0;
+        color: red;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px;
+    }
+
+    .site-footer {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+        background-color: white;
+    }
+
+    .site-footer p {
+        margin: 0;
+    }
+
+    .site-footer .copyright {
+        color: gray;
+    }
+
+    .site-footer a {
+        color: red;
+        text-decoration: none;
+        margin: 0 5px;
+    }
