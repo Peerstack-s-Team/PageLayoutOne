@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="ctr">
+        <a href="#" class="home">Hi-tech</a>
+    
+        <nav>
+            <ul class="nav-links" >
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link">FAQ</a></li>
+                <li><a href="#" class="nav-link">Help</a></li>
+            </ul>
+        </nav>
+        <div class="bar" onclick="clickOpenNavSideMobilBar()">
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+            <span class="bar-line"></span>
+        </div>
+    </header>
+    <script>
+        function clickOpenNavSideMobilBar() {
+            let mobil_bar = document.getElementsByTagName("nav")[0];
+            let bar = document.getElementsByClassName("bar")[0];
+            if(mobil_bar.classList.contains("forMobilBar")){
+                mobil_bar.classList.remove("forMobilBar");
+                return;
+            }
+            bar.display = "none";
+            mobil_bar.classList.add( 'forMobilBar');
+            console.log(mobil_bar);
+        }
+    </script>
+</body>
+
+</html>
