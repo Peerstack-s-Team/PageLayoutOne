@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <header class="ctr">
-        <a href="#" class="home">Hi-tech</a>
-    
-        <nav>
-            <ul class="nav-links" >
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#" class="nav-link">Contact</a></li>
-                <li><a href="#" class="nav-link">FAQ</a></li>
-                <li><a href="#" class="nav-link">Help</a></li>
-            </ul>
-        </nav>
-        <div class="bar" onclick="clickOpenNavSideMobilBar()">
-            <span class="bar-line"></span>
-            <span class="bar-line"></span>
-            <span class="bar-line"></span>
-        </div>
-    </header>
-    <script>
-        function clickOpenNavSideMobilBar() {
-            let mobil_bar = document.getElementsByTagName("nav")[0];
-            let bar = document.getElementsByClassName("bar")[0];
-            if(mobil_bar.classList.contains("forMobilBar")){
-                mobil_bar.classList.remove("forMobilBar");
-                return;
-            }
-            bar.display = "none";
-            mobil_bar.classList.add( 'forMobilBar');
-            console.log(mobil_bar);
-        }
-    </script>
-</body>
+      <a href="#" class="home">Hi-tech</a>
 
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+          <li><a href="#" class="nav-link">FAQ</a></li>
+          <li><a href="#" class="nav-link">Help</a></li>
+        </ul>
+      </nav>
+      <div class="bar" onclick="clickOpenNavSideMobilBar()">
+        <span class="bar-line"></span>
+        <span class="bar-line"></span>
+        <span class="bar-line"></span>
+      </div>
+    </header>
+
+    <main class="ctr">
+      <aside>
+        <h2 style="white-space: nowrap">Left Heading</h2>
+        <ul class="side-links">
+          <li><a href="#" class="nav-link">Link 1</a></li>
+          <li><a href="#" class="nav-link">Link 2</a></li>
+          <li><a href="#" class="nav-link">Link 3</a></li>
+          <li><a href="#" class="nav-link">Link 4</a></li>
+          <li><a href="#" class="nav-link">Link 5</a></li>
+        </ul>
+      </aside>
+
+      <section class="hero">
+        <div class="section-child">
+          <div class="button-holder">
+            <button>View Template Source Code</button>
+          </div>
+          <p>
+            If the facts don't fit the theory, change the facts. The smaller
+            your reality, the more convinced you are that you know everything.
+            This, too, will pass. Peace comes from within. Do not seek it
+            without.
+          </p>
+        </div>
+
+        <div class="section-child">
+          <h2>First Motivation</h2>
+          <p>
+            The most important moment of your life is now. The most important
+            person in your life is the one you are with now, and the most
+            important activity in your life is the one you are involved with
+            now.
+          </p>
+        </div>
+
+        <div class="section-child">
+          <h2>Don't Forget About Yourself</h2>
+          <p>
+            The most important moment of your life is now. The most important
+            person in your life is the one you are with now, and the most
+            important activity in your life is the one you are involved with
+            now. Peace comes from within. Do not seek it without. Peace comes
+            from within. Do not seek it without. If the facts don't fit the
+            theory, change the facts. The past has no power over the present
+            moment.
+          </p>
+        </div>
+
+        <div class="section-child">
+          <h2>The Most Important...</h2>
+          <p>
+            The most important moment of your life is now. The most important
+            person in your life is the one you are with now, and the most
+            important activity in your life is the one you are involved with
+            now. Peace comes from within. Do not seek it without.
+          </p>
+        </div>
+      </section>
+    </main>
+    
+    <script>
+      function clickOpenNavSideMobilBar() {
+        let mobil_bar = document.getElementsByTagName("nav")[0];
+        let bar = document.getElementsByClassName("bar")[0];
+        if (mobil_bar.classList.contains("forMobilBar")) {
+          mobil_bar.classList.remove("forMobilBar");
+          return;
+        }
+        bar.display = "none";
+        mobil_bar.classList.add("forMobilBar");
+        console.log(mobil_bar);
+      }
+    </script>
+  </body>
 </html>
