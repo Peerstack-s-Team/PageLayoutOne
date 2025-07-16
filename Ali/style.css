@@ -1,7 +1,114 @@
-#logo p{
-    color: brown;
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {}
+
+.container{
+    padding-inline: 25%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+
+
+    display: flex;
+    justify-content: space-between;
+
 
 }
-#logo p span{
-    color: ;
+
+#top-nav ul {
+
+    display: flex;
+    gap: 50px;
+    padding: 27px 5px;
+}
+
+#logo p {
+    font-weight: 600;
+    color: brown;
+    font-size: 24px;
+
+    padding: 20px 4px;
+
+}
+
+#logo p span {
+    color: #f8dbdb;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+
+}
+
+#button-link {
+    color: black;
+}
+
+#header1 {
+    color: rgb(240, 234, 227);
+}
+
+.lil-header {
+    color: brown;
+    font-size: 18px;
+}
+
+#cr {
+    color: rgb(139, 139, 139);
+}
+
+.top-ul {
+    list-style: none;
+
+}
+
+#copyright {
+    color: #959595;
+    font-size: 12px;
+}
+
+.p2 {
+    color: #959595;
+}
+
+.p3 {
+    color: red;
+}
+
+p {
+    font-size: 12px;
+}
+
+#main-header {
+    padding-block: 32px;
+    background-color: red;
+}
+
+#left-head {
+    font-size: 14px;
+}
+
+
+@media (max-width: 475px) {
+    .container{
+        padding-inline: 5%;
+    }
+}
+#section{
+    display: flex;
+    
+}
+aside{
+    padding-right: 15%;
 }

@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header id="header">
-    <nav id="nav">
-        <div id="logo">
-            <p >Cool<span>Logo</span></p>
-        </div>
-        <div id="top-nav">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+
 <body>
+    <header id="header" class="container" >
+        <div id="logo">
+            <p>Cool<span>Logo</span></p>
+        </div>
+        <nav id="nav" >
+            
+            <div id="top-nav" >
+                <ul id="top-list" class="top-ul">
+                    <li><a class="link" href="#">About</a></li>
+                    <li><a class="link" href="#">Contact</a></li>
+                    <li><a class="link" href="#">FAQ</a></li>
+                    <li><a class="link" href="#">Help</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
-        <div id="header1">Heading</div>
-        <section>
+        <div id="main-header" class="container">
+            <h1 id="header1">Heading</h1>
+        </div>
+        <section id="section" class="container">
             <aside>
-                <h3>Left heading</h3>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
+                <h3 id="left-head" class="lil-header">Left heading</h3>
+                <ul class="top-ul">
+                    <li><a class="link" href="#">Link 1</a></li>
+                    <li><a class="link" href="#">Link 2</a></li>
+                    <li><a class="link" href="#">Link 3</a></li>
+                    <li><a class="link" href="#">Link 4</a></li>
+                    <li><a class="link" href="#">Link 5</a></li>
                 </ul>
             </aside>
             <div>
                 <button>
-                    View Tamplate Source Code
+                    <a id="button-link" class="link"
+                        href="https://www.html.am/templates/downloads/view-source.cfm?template=css-templates/fixed-width-1-red.cfm"
+                        target="_blank">View Tamplate Source Code</a>
+
                 </button>
 
-                <p>The past has no power over the present moment.
-                    The past has no power over the present moment. 
+                <p class="p2">The past has no power over the present moment.
+                    The past has no power over the present moment.
                     This, too, will pass.
-                    You will not be punished for your anger, you will be punished by your anger. 
+                    You will not be punished for your anger, you will be punished by your anger.
                     This, too, will pass. This, too, will pass.
                     You will not be punished for your anger, you will be punished by your anger. This, too, will pass.
                 </p>
-                <h2>Heading</h2>
-                <p>The most important moment of your life is now. 
-                    The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now. 
-                    Peace comes from within.
-                     Do not seek it without. 
-                     The smaller your reality, the more convinced you are that you know everything.
-                </p>
-                <h2>Heading</h2>
-                <p> The most important moment of your life is now. 
-                    The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now.
+                <h2 class="lil-header">Heading</h2>
+                <p class="p2"> The most important moment of your life is now.
+                    The most important person in your life is the one you are with now, and the most important activity
+                    in your life is the one you are involved with now.
                 </p>
             </div>
         </section>
     </main>
+    <footer>
+        <section class="container">
+            <div>
+                <div>
+                    <h2 class="lil-header">Heading</h2>
+                    <p class="p3">Peace comes from within. Do not seek it without. This, too, will pass.</p>
+                </div>
+                <div>
+                    <h2 class="lil-header">Heading</h2>
+                    <p class="p3">You will not be punished for your anger, you will be punished by your anger. The past
+                        has no power over the present moment.</p>
+                </div>
+                <div>
+                    <h2 class="lil-header">Heading</h2>
+                    <p class="p3">Peace comes from within. Do not seek it without. The smaller your reality, the more
+                        convinced you are that you know everything.</p>
+                </div>
+            </div>
+            <div>
+                <p id="copyright">© Copyright
+                    |
+                    <a class="link" href="#"> Your Site</a>
+                    |
+                    <a class="link" href="#">Terms of Use </a>
+                    |
+                    <a class="link" href="#">Privacy Policy</a>
+                </p>
+            </div>
+        </section>
+    </footer>
+
 </body>
-<footer>
-    <section>
-        <div>
-            <div><h2>Heading</h2>
-            <p>Peace comes from within. Do not seek it without. This, too, will pass.</p></div>
-            <div><h2>Heading</h2>
-            <p>You will not be punished for your anger, you will be punished by your anger. The past has no power over the present moment.</p></div>
-            <div><h2>Heading</h2>
-            <p>Peace comes from within. Do not seek it without. The smaller your reality, the more convinced you are that you know everything.</p></div>
-        </div>
-        <div><p>© Copyright</p>
-        <ul><li><a href="#"> Your Site</a></li>
-        <li><a href="#">Terms of Use </a>
-        <li><a href="#">Privacy Policy</a>
-        </ul></div>
-    </section>
-</footer>
+
 </html>
