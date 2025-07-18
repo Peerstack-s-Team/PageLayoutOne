@@ -7,7 +7,7 @@
 main {}
 
 .container{
-    padding-inline: 25%;
+    padding-inline: 15%;
 }
 
 header {
@@ -52,7 +52,14 @@ header {
 }
 
 #button-link {
+    background-color: #eee;
     color: black;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 17px;
+}
+#main-div{
+    padding-top: 30px;
 }
 
 #header1 {
@@ -97,6 +104,8 @@ p {
 
 #left-head {
     font-size: 14px;
+    padding-bottom: 10px; 
+    padding-top: 30px;    
 }
 
 
@@ -108,7 +117,9 @@ p {
 #section{
     display: flex;
     
+    
 }
-aside{
-    padding-right: 15%;
+.aside-li{
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
