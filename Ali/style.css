@@ -7,7 +7,7 @@
 main {}
 
 .container{
-    padding-inline: 15%;
+    padding-inline: 25%;
 }
 
 header {
@@ -69,6 +69,7 @@ header {
 .lil-header {
     color: brown;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 
 #cr {
@@ -87,6 +88,8 @@ header {
 
 .p2 {
     color: #959595;
+    line-height: 25px;
+    padding-block: 10px;
 }
 
 .p3 {
@@ -122,4 +125,22 @@ p {
 .aside-li{
     padding-top: 4px;
     padding-bottom: 4px;
+}
+#button-p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 12px 0px;
+}
+#top-header{
+    background-color: #f8dbdb;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+   
+}
+
+#top-header>* {
+    width:20%;
+     padding: 0px 24px;
 }
